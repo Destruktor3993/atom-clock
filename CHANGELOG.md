@@ -1,15 +1,8 @@
-## 0.1.18
-* Copy-to-clipboard option added, so that you can copy the current time to your
-clipboard by right-clicking on the time tile in the status bar.
-
-## 0.1.17
-* Full-screen only option added (see [pull request](https://github.com/b3by/atom-clock/pull/64))
-* :memo: Full-screen option added to the README file
-
-## 0.1.16
-* `.gitattributes` file added to ignore useless files (images, CI config...) (see
-  [pull request](https://github.com/b3by/atom-clock/pull/52)).
-* `moment` updated to 2.20
+## 0.2
+* Timezone selection added to the package.
+* :white_check_mark: Timezone tests added
+* :arrow_up: `moment-timezone` dependency added
+* :arrow_down: `moment` dependency removed
 
 ## 0.1.15
 * UTC class added to clock items and tooltip, so that customization is possible
